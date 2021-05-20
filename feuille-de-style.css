@@ -1,0 +1,128 @@
+/* style.css */
+
+body {
+  font-family: KoHo;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  color: #404042;
+  font-family: Poppins;
+}
+
+p {
+  color: black;
+  font-size: 19px;
+  font-weight: 700;
+ 
+}
+
+.conteneur {
+  width: 800px;
+  margin: auto;
+}
+
+.bandeau {
+  background-image: url('images/Bol de curry.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  text-align: center;
+}
+
+.bandeau h1 {
+  color: white;
+  font-size: 45px;
+  margin: 0;
+}
+
+.bandeau p {
+  color: white;
+  font-size: 30px;
+}
+
+.bouton-bleu {
+  background-color: #FF4B4B;
+  color: white;
+  padding: 16px 48px;
+  border-radius: 4px;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.bouton-bleu:hover {
+  background-color: #4460FC;
+  color: white;
+}
+
+.carte-blanche {
+  background: white;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  width: 200px;
+  text-align: center;
+  padding: 24px 24px 12px 24px;
+  margin: 8px;
+}
+
+.carte-blanche img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.carte-blanche h3 {
+  margin-bottom: 0;
+}
+
+.footer {
+  background: #404042;
+  text-align: center;
+  padding: 24px;
+}
+
+.footer p {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.cartes {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
+
+@media (max-width: 800px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+  
+  .card-white {
+    width: auto;
+  }
+}
+  
+/* Container media queries */
+@media (min-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+
+@media (min-width: 800px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container {
+    width: 800px;
+  }
+}
