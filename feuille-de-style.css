@@ -27,16 +27,18 @@ a {
 }
 
 .bandeau {
-  background-image: url('images/cream 2.jpg');
+  background: url('images/cream 2.jpg');
+  background-attachment:fixed;
   background-size: cover;
   background-position: center;
-  padding: 100px 0;
+  padding: 80px 0;
   text-align: center;
 }
 
 .bandeau h1 {
-  color: #272727  ;
-  font-size: 45px;
+  color:black;
+  opacity: 0.6;
+  font-size: 55px;
   margin: 0;
 }
 
@@ -46,10 +48,10 @@ a {
 }
 
 .bouton-bleu {
-  background-color: #D8D9E1 ;
-  color: #000000  ;
-  opacity: 0.6;
-  padding: 12px 35px;
+  background-color: #4460FC;
+  color: white;
+  opacity: 0.7;
+  padding: 8px 25px;
   border-radius: 4px;
   display: inline-block;
   font-size: 22px;
@@ -59,8 +61,8 @@ a {
 }
 
 .bouton-bleu:hover {
-  background-color: #4460FC;
-  color: white;
+  background-color: white;
+  color: blue;
 }
 
 .carte-blanche {
