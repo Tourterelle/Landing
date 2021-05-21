@@ -102,32 +102,3 @@ a {
 	grid-gap: 16px;
 }
 
-@media (max-width: 768px) {
-  .cartes {
-    grid-template-columns: 1fr;
-  }
-  
-  .carte-blanche {
-    width: auto;
-  }
-}
-  
-/* Container media queries */
-@media (min-width: 500px) {
-  .conteneur {
-    width: 400px;
-  }
-}
-
-
-@media (min-width: 768px) {
-  .conteneur {
-    width: 600px;
-  }
-}
-
-@media (min-width: 1000px) {
-  .conteneur {
-    width: 800px;
-  }
-}
