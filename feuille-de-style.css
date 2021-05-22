@@ -24,6 +24,7 @@ a {
 .conteneur {
   width: 800px;
   margin: auto;
+
 }
 
 .bandeau {
@@ -69,15 +70,15 @@ a {
   background: white;
   box-shadow: 0 0 16px rgba(0,0,0,0.2);
   border-radius: 4px;
-  width: 200px;
+  width: 225px;
   text-align: center;
   padding: 24px 24px 0px 24px;
   margin: 14px 14px 0px 14px;
 }
 
 .carte-blanche img {
-  width: 180px;
-  height: 180px;
+  width: 225px;
+  height: 150px;
   object-fit: cover;
   border-radius: 4px;
 }
@@ -101,6 +102,7 @@ a {
 .cartes {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
 	grid-gap: 16px;
 	padding-bottom: 25px;
 }
