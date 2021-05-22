@@ -70,15 +70,15 @@ a {
   background: white;
   box-shadow: 0 0 16px rgba(0,0,0,0.2);
   border-radius: 4px;
-  width: 225px;
+  width: 200px;
   text-align: center;
   padding: 24px 24px 0px 24px;
   margin: 14px 14px 0px 14px;
 }
 
 .carte-blanche img {
-  width: 225px;
-  height: 150px;
+  width: 200px;
+  height: 140px;
   object-fit: cover;
   border-radius: 4px;
 }
@@ -102,8 +102,36 @@ a {
 .cartes {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-  align-items: center;
-	grid-gap: 16px;
+  grid-gap: 16px;
 	padding-bottom: 25px;
 }
 
+@media (max-width: 800px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+  
+  .card-white {
+    width: auto;
+  }
+}
+  
+/* Container media queries */
+@media (min-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+
+@media (min-width: 800px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container {
+    width: 800px;
+  }
+}
